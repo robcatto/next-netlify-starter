@@ -6,18 +6,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+        <meta http-equiv="Refresh" content="0; url='https://www.snow.org.au/disciplines/cross-country/'" />
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        
       </main>
 
-      <Footer />
+     
     </div>
   )
 }
